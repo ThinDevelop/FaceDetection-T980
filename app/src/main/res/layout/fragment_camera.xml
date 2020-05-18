@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraFragment">
+
+    <com.lightweh.facedetection.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/bottom_ads"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moc_display"
+        android:scaleType="centerCrop"
+        android:visibility="visible"/>
+
+    <com.lightweh.facedetection.BoundingBoxView
+        android:id="@+id/boundingBoxView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textureView"
+        android:layout_alignTop="@+id/textureView"
+        android:layout_alignRight="@+id/textureView"
+        android:layout_alignBottom="@+id/textureView"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/img_test"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/img_status"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+        <LinearLayout
+            android:id="@+id/ads_tran"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/bottom_ads"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:padding="10dp"
+                android:text="@string/company_ads_www"
+                android:textColor="#2b5aa9"
+                android:textSize="16dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_gravity="right"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/facecheck_logo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#2b5aa9"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/arial"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/company_ads_biometric"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_ads"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#2b5aa9"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/kachen"
+                android:padding="10dp"
+                android:fontFamily="@font/arial"
+                android:layout_alignParentStart="true"
+                android:text="@string/company_ads_address"
+                android:textColor="#ffffff"
+                android:textSize="16dp"/>
+            <ImageView
+                android:id="@+id/kachen"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/kachen_logo"/>
+
+        </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#FFFFFF"
+        android:layout_above="@+id/bottom_ads"
+        android:fontFamily="@font/arial"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

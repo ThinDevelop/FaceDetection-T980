@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/PanyaN/Downloads/FaceDetection-master",
+      "sdkFolder": "/Users/PanyaN/Library/Android/sdk2",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app",
+      "makeFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/PanyaN/Downloads/FaceDetection-master/.cxx",
+      "cxxFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx",
+      "ndkFolder": "/Users/PanyaN/Library/Android/sdk2/ndk/21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DCMAKE_BUILD_TYPE\u003dRelease"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++11 -frtti -fexceptions"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64",
+  "jsonFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64",
+  "objFolder": "/Users/PanyaN/Downloads/FaceDetection-master/app/build/intermediates/cmake/debug/obj/x86_64",
+  "buildCommandFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/build_generation_state.json",
+    "cacheKeyFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cxx/debug/x86_64/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/debug/x86_64/compile_commands.json"
+}

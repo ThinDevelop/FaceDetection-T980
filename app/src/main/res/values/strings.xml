@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">facecheck</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="company_ads_www">www.thefacecheck.com</string>
+    <string name="company_ads_biometric">Biometric Attendance and Access Control Solutions</string>
+
+    <string name="company_ads_address">Kachen Digital Co., Ltd.\nCopyright © 2020 All rights reserved\nwww.kachendigital.co.th\nhello@kachendigital.co.th</string>
+    <string name="device_name">ระบุชื่อเครื่อง : </string>
+
+</resources>

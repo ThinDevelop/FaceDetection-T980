@@ -1,0 +1,16 @@
+Executable : /Users/PanyaN/Library/Android/sdk2/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/PanyaN/Downloads/FaceDetection-master/app
+-B/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/PanyaN/Downloads/FaceDetection-master/app/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/PanyaN/Library/Android/sdk2/ndk/21.1.6352462
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/PanyaN/Library/Android/sdk2/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/PanyaN/Library/Android/sdk2/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DCMAKE_BUILD_TYPE=Release
+jvmArgs : 
+

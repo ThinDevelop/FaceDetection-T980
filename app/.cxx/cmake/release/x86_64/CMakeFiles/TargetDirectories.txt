@@ -1,0 +1,6 @@
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/CMakeFiles/native-lib.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/dlib_build/CMakeFiles/edit_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/dlib_build/CMakeFiles/rebuild_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/x86_64/dlib_build/CMakeFiles/dlib.dir

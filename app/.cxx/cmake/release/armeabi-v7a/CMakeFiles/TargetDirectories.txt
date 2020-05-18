@@ -1,0 +1,6 @@
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/dlib_build/CMakeFiles/edit_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/dlib_build/CMakeFiles/rebuild_cache.dir
+/Users/PanyaN/Downloads/FaceDetection-master/app/.cxx/cmake/release/armeabi-v7a/dlib_build/CMakeFiles/dlib.dir
